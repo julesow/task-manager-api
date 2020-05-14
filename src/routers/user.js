@@ -2,7 +2,7 @@ const express = require("express");
 const multer = require("multer");
 
 const auth = require("../middleware/auth");
-const User = new require("../models/user");
+const User = require("../models/user");
 const sharp = require("sharp");
 const {
   sendWelcomeEmail,
